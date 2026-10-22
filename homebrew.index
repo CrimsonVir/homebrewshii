@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Homebrew</name>
+		<description>The content from various third party sources.</description>
+		<update version="0.2.2">
+			<file name="homebrew.index" url="https://raw.githubusercontent.com/CrimsonVir/homebrewshii/refs/heads/main/homebrew.index" />
+		</update>
+	</info>
+	<files>
+        <file name="owlin.xml" url="https://raw.githubusercontent.com/CrimsonVir/homebrewshii/refs/heads/main/Homebrew/owlin.xml" />
+	</files>
+</index>
