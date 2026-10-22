@@ -4,7 +4,7 @@
 		<name>Owlin</name>
 		<description>Owlin species.</description>
 		<author>Homebrew</author>
-		<update version="0.1.1">
+		<update version="0.1.2">
             <file name="owlin.xml" url="https://raw.githubusercontent.com/CrimsonVir/homebrewshii/refs/heads/main/Homebrew/owlin.xml" />
         </update>
 	</info>
@@ -21,7 +21,6 @@
 			<h4>Silent Feathers</h4><p>You have proficiency in the Stealth skill.</p>
 			<h4>Languages</h4><p>You can speak, read, and write Common and one other language.</p>
 		</description>
-		<sheet>
 			<element name="Keen Hearing and Sight" type="Racial Trait" source="homebrew" id="ID_RACIAL_TRAIT_Keen_Hearing_and_Sight">
 				<description>
 					<p>You have advantage on Wisdom (Perception) checks that rely on hearing or sight.</p>
@@ -38,11 +37,9 @@
 					<description>You don't provoke opportunity attacks when you fly out of an enemy's reach.</description>
 				</sheet>
 			</element>
-		</sheet>
 		<rules>
 			<stat name="Speed" value="30" />
-			<stat name="Fly" value="30" bonus="base"/>
-			<stat name="Darkvision" value="120" />
+			<stat name="innate speed:fly:misc" value="Speed" equipped="![armor:heavy],[armor:medium]" />
 			<stat name="wisdom" value="2" />
 			<stat name="dexterity" value="1" />
 			<grant type="Vision" id="ID_VISION_DARKVISION" value="120" />
