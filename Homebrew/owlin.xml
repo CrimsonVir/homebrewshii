@@ -4,7 +4,7 @@
 		<name>Owlin</name>
 		<description>Owlin species.</description>
 		<author>Homebrew</author>
-		<update version="0.1.0">
+		<update version="0.1.1">
             <file name="owlin.xml" url="https://raw.githubusercontent.com/CrimsonVir/homebrewshii/refs/heads/main/Homebrew/owlin.xml" />
         </update>
 	</info>
@@ -22,16 +22,33 @@
 			<h4>Languages</h4><p>You can speak, read, and write Common and one other language.</p>
 		</description>
 		<sheet>
-			<description>30 ft. speed; flying speed equal to walking speed (no flight in medium or heavy armor); 120 ft. darkvision; Stealth proficiency.</description>
+			<element name="Keen Hearing and Sight" type="Racial Trait" source="homebrew" id="ID_RACIAL_TRAIT_Keen_Hearing_and_Sight">
+				<description>
+					<p>You have advantage on Wisdom (Perception) checks that rely on hearing or sight.</p>
+				</description>
+				<sheet>
+					<description>You have advantage on Wisdom (Perception) checks that rely on hearing or sight.</description>
+				</sheet>
+			</element>
+			<element name="Flyby" type="Racial Trait" source="homebrew" id="ID_RACIAL_TRAIT_Flyby">
+				<description>
+					<p>You don't provoke opportunity attacks when you fly out of an enemy's reach.</p>
+				</description>
+				<sheet>
+					<description>You don't provoke opportunity attacks when you fly out of an enemy's reach.</description>
+				</sheet>
+			</element>
 		</sheet>
 		<rules>
-			<select type="Size" name="Size" supports="Small,Medium" />
 			<stat name="Speed" value="30" />
-			<stat name="Fly Speed" value="30" />
+			<stat name="Fly" value="30" bonus="base"/>
 			<stat name="Darkvision" value="120" />
+			<stat name="wisdom" value="2" />
+			<stat name="dexterity" value="1" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" value="120" />
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
 			<grant type="Language" id="ID_LANGUAGE_COMMON" />
-			<select type="Language" name="Additional Language" supports="Language" />
+			<select type="Language" name="Language, " supports="Standard||Exotic" />
 		</rules>
 	</element>
 </elements>
