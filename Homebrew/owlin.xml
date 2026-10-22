@@ -4,7 +4,8 @@
 		<name>Owlin</name>
 		<description>Owlin species (Strixhaven: A Curriculum of Chaos).</description>
 		<author>Homebrew</author>
-		<update>1</update>
+		<update version="0.1.0">
+            <file name="owlin.xml" url="https://raw.githubusercontent.com/CrimsonVir/homebrewshii/refs/heads/main/Homebrew/owlin.xml" />
 	</info>
 
 	<element name="Owlin" type="Race" source="Strixhaven: A Curriculum of Chaos" id="ID_HOMEBREW_RACE_OWLIN">
