@@ -13,13 +13,13 @@
 		<supports>Race</supports>
 		<description>
 			<p>Owlin are descended from giant owls. They have feathers and wings, and come in many shapes and sizes.</p>
-			<h>Creature Type</h><p>You are a Humanoid.</p>
-			<h>Size</h><p>You are Small or Medium. You choose the size when you select this race.</p>
-			<h>Speed</h><p>Your walking speed is 30 feet.</p>
-			<h>Darkvision</h><p>You can see in dim light within 120 feet of yourself as if it were bright light, and in darkness as if it were dim light. You discern colors in darkness only as shades of gray.</p>
-			<h>Flight</h><p>Because of your wings, you have a flying speed equal to your walking speed. You can't use this flying speed if you are wearing medium or heavy armor.</p>
-			<h>Silent Feathers</h><p>You have proficiency in the Stealth skill.</p>
-			<h>Languages</h><p>You can speak, read, and write Common and one other language.</p>
+			<h4>Creature Type</h4><p>You are a Humanoid.</p>
+			<h4>Size</h4><p>You are Small or Medium. You choose the size when you select this race.</p>
+			<h4>Speed</h4><p>Your walking speed is 30 feet.</p>
+			<h4>Darkvision</h4><p>You can see in dim light within 120 feet of yourself as if it were bright light, and in darkness as if it were dim light. You discern colors in darkness only as shades of gray.</p>
+			<h4>Flight</h4><p>Because of your wings, you have a flying speed equal to your walking speed. You can't use this flying speed if you are wearing medium or heavy armor.</p>
+			<h4>Silent Feathers</h4><p>You have proficiency in the Stealth skill.</p>
+			<h4>Languages</h4><p>You can speak, read, and write Common and one other language.</p>
 		</description>
 		<sheet>
 			<description>30 ft. speed; flying speed equal to walking speed (no flight in medium or heavy armor); 120 ft. darkvision; Stealth proficiency.</description>
