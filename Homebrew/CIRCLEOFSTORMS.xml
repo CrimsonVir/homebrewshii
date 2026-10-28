@@ -5,7 +5,7 @@
 		<description></description>
 		<author>Kermit</author>
 		<update version="0.0.3">
-			<file name="CIRCLEOFSTORMS.xml"/>
+			<file name="CIRCLEOFSTORMS.xml" url="https://raw.githubusercontent.com/CrimsonVir/homebrewshii/refs/heads/main/Homebrew/CIRCLEOFSTORMS.xml" />
 		</update>
 	</info>
 
