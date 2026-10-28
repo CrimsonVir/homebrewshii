@@ -58,13 +58,8 @@
 		<sheet>
 		<description>When a creature within 30 feet of you gets hit by a melee attack you can use your reaction to strike it with lightning. The target must make a Dexterity saving throw against your spell save DC. On a failure, it takes 1d8 lightning damage and can't use its reaction until the end of its next turn. On a success, they take half as much damage but they can still use its reaction. You can use this feature a number of times equal to your Wisdom modifier and regain all expended uses when you finish a short or long rest. This damage increases to 1d10 lightning damage when you reach 11th level.</description>
 		</sheet>
-		<rules>
-			<stat name="Storm:die" value="8" level="2" bonus="die" />
-			<stat name="Storm:die" value="10" level="11" bonus="die" />
-			
-		</rules>
 	</element>
-<element name="Eye of the Storm" type="Archetype Feature" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_GGTR_ARCHETYPE_FEATURE_CIRCLE_SPORES_FUNGAL_INFESTATION">
+<element name="Eye of the Storm" type="Archetype Feature" source="Guildmasters’ Guide to Ravnica" id="ID_KHB_COTS_ARCHETYPE_FEATURE_CIRCLE_Storm_Eye_Storm">
 		<description>
 			<p>At 6th level you have become familiar with lightning and can resist it’s effect. You gain resistance to lightning damage. Additionally, wind wraps itself around your body. While you are conscious, you are always under the effect of the *feather fall* spell, unless you choose not to be.</p>
 		</description>
