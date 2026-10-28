@@ -13,12 +13,6 @@
 		<supports>Druid Circle</supports>
 		<description>
 			<p>The storm captures the most raw power nature can show. Pure destruction, ruthless blasts of lightning and winds capable of leveling trees. Lightning is beautiful in its imperfection, not one lightning strike is the same. A druid of the storm tries to capture such power and use it themselves. Capable of creating a local storm and blasting their enemies with lightning, they can tap into the power of such ancient force. </p>
-			<div element="ID_KHB_COTS_ARCHETYPE_FEATURE_CIRCLE_Storm_CIRCLE_SPELLS" />
-			<div element="ID_KHB_COTS_ARCHETYPE_FEATURE_CIRCLE_Storm_Stormcaller" />
-			<div element="ID_KHB_COTS_ARCHETYPE_FEATURE_CIRCLE_Storm_SYMBIOTIC_ENTITY" />
-			<div element="ID_KHB_COTS_ARCHETYPE_FEATURE_CIRCLE_Storm_FUNGAL_INFESTATION" />
-			<div element="ID_KHB_COTS_ARCHETYPE_FEATURE_CIRCLE_Storm_SPREADING_Storm" />
-			<div element="ID_KHB_COTS_ARCHETYPE_FEATURE_CIRCLE_Storm_FUNGAL_BODY" />
 		</description>
 		<sheet display="false">
 			<description>Druids of the Circle of the Storm wield the most ancient power.</description>
