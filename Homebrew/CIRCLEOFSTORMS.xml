@@ -79,8 +79,7 @@
 	</element>
 	<element name="Occluded Front" type="Archetype Feature" source="Kermit Homebrew" id="ID_KHB_COTS_ARCHETYPE_FEATURE_CIRCLE_Storm_Occluded_Front">
 		<description>
-			<p>At 10th level, you gain the ability to affect the wind around you. If it is windy, you can use a bonus action each round to choose the direction that the wind blows in a 100-foot-radius sphere centered on you. The wind blows in that direction until the end of your next turn, but it doesn't increase in speed. As an action, you can increase the speed of the winds up to a total maximum of 20 mph.
-
+			<p>At 10th level, you gain the ability to affect the wind around you. If it is windy, you can use a bonus action each round to choose the direction that the wind blows in a 100-foot-radius sphere centered on you. The wind blows in that direction until the end of your next turn, but it doesn't increase in speed. As an action, you can increase the speed of the winds up to a total maximum of 20 mph.</p>
 		</description>
 		<sheet>
 			<description>If it is windy, you can use a bonus action each round to choose the direction that the wind blows in a 100-foot-radius sphere centered on you. The wind blows in that direction until the end of your next turn, but it doesn't increase in speed. As an action, you can increase the speed of the winds up to a total maximum of 20 mph.</description>
@@ -89,7 +88,7 @@
 	</element>
 	<element name="Storm's Wrath" type="Archetype Feature" source="Kermit Homebrew" id="ID_KHB_COTS_ARCHETYPE_FEATURE_CIRCLE_Storm_Storm's_Wrath">
 		<description>
-			<p>boeie </p>
+			<p>FEEL THE TEMPEST</p>
 		</description>
 		<sheet>
 			<description>At 14th level, you can harness the power of a complete storm.
