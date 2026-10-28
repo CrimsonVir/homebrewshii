@@ -9,5 +9,6 @@
 	</info>
 	<files>
         <file name="owlin.xml" url="https://raw.githubusercontent.com/CrimsonVir/homebrewshii/refs/heads/main/Homebrew/owlin.xml" />
+		<file name="CIRCLEOFSTORMS.xml" url="https://raw.githubusercontent.com/CrimsonVir/homebrewshii/refs/heads/main/Homebrew/CIRCLEOFSTORMS.xml" />
 	</files>
 </index>

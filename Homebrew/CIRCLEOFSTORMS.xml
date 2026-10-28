@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Circle of the Storm</name>
+		<description></description>
+		<author>Kermit</author>
+		<update version="0.0.3">
+			<file name="CIRCLEOFSTORMS.xml"/>
+		</update>
+	</info>
+
+	<element name="Circle of the Storm" type="Archetype" source="Kermit Homebrew" id="ID_KHB_COTS_ARCHETYPE_CIRCLE_STORM">
+		<supports>Druid Circle</supports>
+		<description>
+			<p>The storm captures the most raw power nature can show. Pure destruction, ruthless blasts of lightning and winds capable of leveling trees. Lightning is beautiful in its imperfection, not one lightning strike is the same. A druid of the storm tries to capture such power and use it themselves. Capable of creating a local storm and blasting their enemies with lightning, they can tap into the power of such ancient force. </p>
+			<div element="ID_KHB_COTS_ARCHETYPE_FEATURE_CIRCLE_Storm_CIRCLE_SPELLS" />
+			<div element="ID_KHB_COTS_ARCHETYPE_FEATURE_CIRCLE_Storm_Stormcaller" />
+			<div element="ID_KHB_COTS_ARCHETYPE_FEATURE_CIRCLE_Storm_SYMBIOTIC_ENTITY" />
+			<div element="ID_KHB_COTS_ARCHETYPE_FEATURE_CIRCLE_Storm_FUNGAL_INFESTATION" />
+			<div element="ID_KHB_COTS_ARCHETYPE_FEATURE_CIRCLE_Storm_SPREADING_Storm" />
+			<div element="ID_KHB_COTS_ARCHETYPE_FEATURE_CIRCLE_Storm_FUNGAL_BODY" />
+		</description>
+		<sheet display="false">
+			<description>Druids of the Circle of the Storm wield the most ancient power.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_KHB_COTS_ARCHETYPE_FEATURE_CIRCLE_Storm_CIRCLE_SPELLS" level="2" />
+			<grant type="Archetype Feature" id="ID_KHB_COTS_ARCHETYPE_FEATURE_CIRCLE_Storm_Stormcaller" level="2" />
+			<grant type="Archetype Feature" id="ID_KHB_COTS_ARCHETYPE_FEATURE_CIRCLE_Storm_Eye_Storm" level="6" />
+			<grant type="Archetype Feature" id="ID_KHB_COTS_ARCHETYPE_FEATURE_CIRCLE_Storm_Occluded_Front" level="10" />
+			<grant type="Archetype Feature" id="ID_KHB_COTS_ARCHETYPE_FEATURE_CIRCLE_Storm_Storm's_Wrath" level="14" />
+		</rules>
+	</element>
+	<element name="Circle Spells" type="Archetype Feature" source="Kermit Homebrew" id="ID_KHB_COTS_ARCHETYPE_FEATURE_CIRCLE_Storm_CIRCLE_SPELLS">
+		<description>
+			<p>Your powerful connection to the storm infuses you with the ability to cast certain spells. At 3rd, 5th, 7th, and 9th level you gain access to circle spells associated with the storm. </p>
+			<p class="indent"> Once you gain access to a circle spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.</h5>
+			<table>
+				<thead><tr><td>Druid Level</td><td>Spells</td></tr></thead>
+				<tr><td>3rd</td><td><em>gust of wind, skywrite</em></td></tr>
+				<tr><td>5th</td><td><em>thunderstep, lightning bolt</em></td></tr>
+				<tr><td>7th</td><td><em>storm sphere, freedom of movement</em></td></tr>
+				<tr><td>9th</td><td><em>control winds, steel wind strike</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false">
+			<description>You gain access to specific spells as you level up.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_GUST_OF_WIND" level="3" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_SKYWRITE" level="3" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_THUNDER_STEP" level="5" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_LIGHTNING_BOLT" level="5" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_STORM_SPHERE" level="7" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT" level="7" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_CONTROL_WINDS" level="9" spellcasting="Druid" prepared="true" />
+			<grant type="Spell" id="ID_XGTE_SPELL_STEEL_WIND_STRIKE" level="9" spellcasting="Druid" prepared="true" />
+		</rules>
+	</element>
+	<element name="Stormcaller" type="Archetype Feature" source="Kermit Homebrew" id="ID_KHB_COTS_ARCHETYPE_FEATURE_CIRCLE_Storm_Stormcaller">
+		<sheet>
+			<description>Beginning at 2nd level, when a creature within 30 feet of you gets hit by a melee attack you can use your reaction to strike it with lightning. The target must make a Dexterity saving throw against your spell save DC. On a failure, it takes 1d8 lightning damage and can't use its reaction until the end of its next turn. On a success, they take half as much damage but they can still use its reaction. You can use this feature a number of times equal to your Wisdom modifier and regain all expended uses when you finish a short or long rest. This damage increases to 1d10 lightning damage when you reach 11th level.
+</description>
+		</sheet>
+		<rules>
+			<stat name="Storm:die" value="8" level="2" bonus="die" />
+			<stat name="Storm:die" value="10" level="11" bonus="die" />
+			
+		</rules>
+	</element>
+<element name="Eye of the Storm" type="Archetype Feature" source="Guildmasters’ Guide to Ravnica" id="ID_WOTC_GGTR_ARCHETYPE_FEATURE_CIRCLE_SPORES_FUNGAL_INFESTATION">
+		<description>
+			<p>At 6th level you have become familiar with lightning and can resist it’s effect. You gain resistance to lightning damage. Additionally, wind wraps itself around your body. While you are conscious, you are always under the effect of the *feather fall* spell, unless you choose not to be.</p>
+		</description>
+		<sheet>
+			<description> you have resistance against lightning damage and are always under the effect of the feather fall spell</description>
+		</sheet>
+		
+	</element>
+	<element name="Occluded Front" type="Archetype Feature" source="Kermit Homebrew" id="ID_KHB_COTS_ARCHETYPE_FEATURE_CIRCLE_Storm_Occluded_Front">
+		<description>
+			<p>At 10th level, you gain the ability to affect the wind around you. If it is windy, you can use a bonus action each round to choose the direction that the wind blows in a 100-foot-radius sphere centered on you. The wind blows in that direction until the end of your next turn, but it doesn't increase in speed. As an action, you can increase the speed of the winds up to a total maximum of 20 mph.
+
+		</description>
+		<sheet>
+			<description>If it is windy, you can use a bonus action each round to choose the direction that the wind blows in a 100-foot-radius sphere centered on you. The wind blows in that direction until the end of your next turn, but it doesn't increase in speed. As an action, you can increase the speed of the winds up to a total maximum of 20 mph.</description>
+		</sheet>
+		<rules>
+	</element>
+	<element name="Storm's Wrath" type="Archetype Feature" source="Kermit Homebrew" id="ID_KHB_COTS_ARCHETYPE_FEATURE_CIRCLE_Storm_Storm's_Wrath">
+		<description>
+			<p>boeie </p>
+		</description>
+		<sheet>
+			<description>At 14th level, you can harness the power of a complete storm.
+As an action you can unleash the power of a storm onto yourself. For the 1 minute duration, you gain the following benefits.
+- You are immune to lightning damage.
+- The area within 30 feet of you is filled with whipping winds (10 miles-per-hour) and is considered difficult terrain for creatures other than you. You can designate a number of additional creatures up to your Wisdom modifier (minimum of 1) to not be affected by this effect.
+- The attack rolls of ranged weapon attacks have disadvantage if the attacks pass in or out of this area. 
+- For the duration Stormcaller has infinite uses and does 2d10 lightning damage instead of 1d10 and you can target creatures up to a range of 60 feet.
+	
+    You can dismiss these effects as a bonus action. After you use this feature, you can’t do so until you finish a long rest.</description>
+		</sheet>
+	</element>
+</elements>
