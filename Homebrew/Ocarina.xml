@@ -7,7 +7,7 @@
         <update version="0.0.4">
             <file name="Ocarina.xml" url="https://raw.githubusercontent.com/CrimsonVir/homebrewshii/refs/heads/main/Homebrew/Ocarina.xml" />
         </update>
-        <<element name="Ocarina" type="Item" source="source" id="ID_ZLDA_Ocarina">
+        <element name="Ocarina" type="Item" source="source" id="ID_ZLDA_Ocarina">
             <setters>
                 <set name="Musical Instruments">Ocarina</set>
             </setters>
