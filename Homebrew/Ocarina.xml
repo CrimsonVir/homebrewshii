@@ -7,13 +7,19 @@
         <update version="0.0.5">
             <file name="Ocarina.xml" url="https://raw.githubusercontent.com/CrimsonVir/homebrewshii/refs/heads/main/Homebrew/Ocarina.xml" />
         </update>
-        <element name="Ocarina" type="Item" source="source" id="ID_ZLDA_Ocarina">
-            <description>
-                <p>A small, hollow wind instrument with finger holes, producing a clear, mellow tone when blown.</p>
-            </description>
-            <setters>
-                <set name="Musical Instruments">Ocarina</set>
-            </setters>
-        </element>
+  <element name="Ocarina" type="Item" source="Homebrew" id="ID_WOTC_SRD_INSTRUMENT_OCARINA">
+    <supports>ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT</supports>
+    <description>
+      <p>If you have proficiency with the Ocarina, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus.</p>
+    </description>
+    <setters>
+      <set name="category">Musical Instruments</set>
+      <set name="cost" currency="gp">2</set>
+      <set name="weight" lb="1">1 lbs.</set>
+      <set name="slot">onehand</set>
+      <set name="type">Tool</set>
+      <set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_OCARINA</set>
+    </setters>
+  </element>
     </info>
 </elements>
